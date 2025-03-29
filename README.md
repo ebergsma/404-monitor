@@ -14,7 +14,7 @@ This is a Laravel Pulse package that allows you to track 404 errors.
 You can install the package via composer:
 
 ```bash
-composer require geowrgetudor/404-monitor
+composer require ebergsma/404-monitor
 ```
 
 Optionally, you can publish the views using
