@@ -1,22 +1,27 @@
 {
-    "name": "geowrgetudor/404-monitor",
+    "name": "ebergsma/404-monitor",
     "description": "Monitor 404 pages within Laravel Pulse",
     "keywords": [
         "laravel",
         "pulse",
         "404-monitor"
     ],
-    "homepage": "https://github.com/geowrgetudor/404-monitor",
+    "homepage": "https://github.com/ebergsma/404-monitor",
     "license": "MIT",
     "authors": [
         {
             "name": "George Tudor",
             "email": "georgebitq@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Elwin Bergsma",
+            "email": "elwin.bergsma@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.1|^8.2|^8.3",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.14.0",
         "illuminate/contracts": "^10.0|^11.0",
         "laravel/pulse": "^1.4"
@@ -72,6 +77,6 @@
             ]
         }
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
